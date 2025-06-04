@@ -15,10 +15,14 @@ class FiltroActivity : AppCompatActivity() {
         setContentView(R.layout.activity_filtro)
 
         val botaoVoltar: ImageButton = findViewById(R.id.botaoVoltar)
-
         botaoVoltar.setOnClickListener{
             finish()
+        }
 
+        val btProximo: Button = findViewById(R.id.btProximo)
+        btProximo.setOnClickListener{
+            val intent= Intent(this,SurpresaActivity::class.java)
+            startActivity(intent)
         }
 
     }
