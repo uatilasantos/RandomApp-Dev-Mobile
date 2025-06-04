@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Random Project</string>
-    <string name="botao_surpresa">Pronto para se surpreender?</string>
-    <string name="interigacao">"?"</string>
-    <string name="random">"RANDOM"</string>
-    <string name="nomes">
-        "Ana Beatriz Silva Santos - RA: 2401228\nLuiz Otávio Santos Silva - RA: 2401300\nMurillo Rodrigues Santos Pereira - RA: 2400338\nPablo Neves Vavrik - RA: 2400125\nUatila dos Santos Silva - RA: 2400250"</string>
-    <string name="Filtro">"Filtro"</string>
-</resources>
