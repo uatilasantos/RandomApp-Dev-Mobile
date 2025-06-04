@@ -5,18 +5,34 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SurpresaActivity">
+    tools:context=".SurpresaActivity"
+    android:background="@drawable/background_gradient">
+    >
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/playfair_display"
+        android:letterSpacing="0.3"
+        android:shadowColor="#ffff"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="51dp"
         android:layout_marginTop="104dp"
-        android:text="Se Surpreenda"
+        android:text="Surpreenda-se"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+         />
 
     <Button
         android:id="@+id/btSurpresa"
@@ -24,7 +40,6 @@
         android:layout_height="wrap_content"
         android:text="@string/interigacao"
         android:textColor="#FFFFFF"
-        android:textSize="40sp"
         android:shadowColor="#AAFFFFFF"
         android:shadowDx="0"
         android:shadowDy="0"
@@ -32,7 +47,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="400sp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/playfair_display"
+        android:background="@android:color/transparent"/>
+    />
 
     <ImageButton
         android:id="@+id/btVoltar2"

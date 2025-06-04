@@ -5,21 +5,61 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResultadoActivity">
+    tools:context=".ResultadoActivity"
+    android:background="@drawable/background_gradient">
 
     <ImageButton
         android:id="@+id/btVoltar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/ic_menu_revert"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="3dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="681dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btFinalizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Finalizar"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="417dp" />
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#03224c"
+        android:fontFamily="@font/playfair_display"
+        android:text="Uau!"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="362dp"
+        android:layout_height="581dp"
+        app:srcCompat="@drawable/filme_surpresa"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="103dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="628dp"
+        android:backgroundTint="#03224c"
+        android:fontFamily="@font/playfair_display"
+        android:letterSpacing="0.17"
+        android:padding="10dp"
+        android:text="O Biscoito Assassino"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        android:shadowColor="#ffff"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="3"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,9 +13,16 @@
         android:textSize="24sp"
         android:textColor="#FFFFFF"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:letterSpacing="0.2"
-        android:textStyle="bold" />
+        android:layout_marginTop="100dp"
+        android:letterSpacing="0.7"
+        android:textStyle="bold"
+        android:fontFamily="@font/playfair_display"
+        android:textAlignment="center"
+        android:shadowColor="#ffff"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        />
 
 
     <TextView
@@ -29,7 +36,8 @@
         android:shadowColor="#AAFFFFFF"
         android:shadowDx="0"
         android:shadowDy="0"
-        android:shadowRadius="20"/>
+        android:shadowRadius="20"
+        android:fontFamily="@font/playfair_display"/>
 
 
     <Button
@@ -37,10 +45,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/botao_surpresa"
-        android:background="@drawable/button_style"
-        android:textColor="#FFFFFF"
+        android:background="@drawable/button_test"
+        android:textColor="#1a61ac"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="40dp"
-        android:padding="15dp"/>
+        android:padding="15dp"
+        android:fontFamily="@font/playfair_display"
+        android:letterSpacing="0.1"
+        android:textSize="18sp"
+
+        />
 </RelativeLayout>
